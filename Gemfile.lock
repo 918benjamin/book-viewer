@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.6.8)
+    did_you_mean (1.4.0)
     erubis (2.7.0)
     multi_json (1.12.1)
     nio4r (2.5.7)
@@ -29,6 +30,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  did_you_mean (~> 1.4.0)
   erubis
   puma
   sinatra (~> 1.4.7)
